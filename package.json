@@ -1,0 +1,23 @@
+{
+  "name": "some-webserveer",
+  "version": "0.0.1",
+  "description": "This is a test webserver built on Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-pvtanike.git"
+  },
+  "author": "@pvtanike",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-pvtanike/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-pvtanike#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
